@@ -6,7 +6,7 @@ contract('Total Supply', function(accounts) {
 	//   supply = await Token.totalSupply();
 	//   assert.equal(supply, 10000000, "New crowdsale was not created");
 	// });
-
+	console.log(accounts[0]);
 
 	let options = {
 		// accounts to test with, accounts[0] being the contract owner
